@@ -1,0 +1,25 @@
+- name: system setup | utilities | install utility packages
+  tags: packages,system,settings
+  package:
+    state: latest
+    name:
+      - at
+      - curl
+      - htop
+      - iotop
+      - lsof
+      - mosh
+      - ncdu
+      - neofetch
+      - net-tools
+      - nmap
+      - ranger
+      - rsync
+      - screen
+      - sshfs
+      - tilix
+      - tmux
+      - traceroute
+      - wget
+      - whois
+      - zsh

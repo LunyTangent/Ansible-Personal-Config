@@ -1,0 +1,10 @@
+- name: copy some bash files
+  tags: bashfiles
+  copy:
+    src: bash/{{ item.src }}
+    dest: ~xrazy/{{ item.dest }}
+    owner: xrazy
+    mode: 0660
+  with_items:
+    - { src: 'bash_aliases', dest: '.bash_aliases' }
+    - { src: 'bashrc', dest: '.bashrc' }
