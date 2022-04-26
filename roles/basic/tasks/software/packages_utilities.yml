@@ -8,6 +8,7 @@
       - htop
       - iotop
       - lsof
+      - keepassxc
       - mosh
       - ncdu
       - neofetch
